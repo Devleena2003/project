@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #101d38;
+    line-height: 0.5;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.calci{
+    width:500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transition:0.25px;
+    
+    text-align: center;
+}
+#display{
+    border: none;
+    background: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:300;
+    height: 60px;
+    width: 245px;
+    margin: auto;
+    color: black;
+    border: 2px solid white;
+
+
+}
+.btndesign{
+    width: 55px;
+    height: 55px;
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 30px;
+    background: white;
+    font-size: 20;
+    margin: 1.5;
+}
+.operatordesign{
+    width: 55px;
+    background: white;
+    height: 55px;
+    border:2px solid white;
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 30px;
+    font-size: 20;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.operatordesign:hover{
+    background:greenyellow;
+    opacity: -0.5px;
+}
+.btndesign:hover{
+    background: palegoldenrod;
+    opacity: -0.5px;
+}
+
+#zero:hover{
+    background: pink;
+    opacity: -0.5px;
+}
+
+#zero{
+    
+        width: 105px;
+        height: 55px;
+        border: 2px solid white;
+        font-family: sans-serif;
+        font-weight: 300;
+        background: white;
+        border-radius: 30px;
+        font-size: 20;
+        margin: 1.5;
+    }
+    h1{
+        color: yellow;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700px;
+        margin-top: 300px;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-decoration: underline;
+    }
+    h2{
+        color: yellow;
+        font-family: sans-serif;
+        font-weight: 500px;
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 300px;
+        font-size: 40;
+        
+    }
